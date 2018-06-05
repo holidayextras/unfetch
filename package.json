@@ -1,5 +1,5 @@
 {
-  "name": "unfetch",
+  "name": "@holidayextras/unfetch",
   "version": "3.0.0",
   "description": "Bare minimum fetch polyfill in 500 bytes",
   "main": "dist/unfetch.js",
@@ -19,14 +19,14 @@
     "prepublish": "npm run -s build",
     "release": "npm run build -s && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
-  "repository": "developit/unfetch",
+  "repository": "holidayextras/unfetch",
   "keywords": [
     "fetch",
     "polyfill",
     "xhr",
     "ajax"
   ],
-  "homepage": "https://github.com/developit/unfetch",
+  "homepage": "https://github.com/holidayextras/unfetch",
   "authors": [
     "Jason Miller <jason@developit.ca>"
   ],
